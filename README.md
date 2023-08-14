@@ -1,7 +1,4 @@
-# php_basics_dave_hollingworth
+# php_beginners_dave_h
 ---
-
 * Udemy Lessons - PHP for Beginners
 * Instructor - Dave Hollingworth
-
-# php_beginners_dave_h
