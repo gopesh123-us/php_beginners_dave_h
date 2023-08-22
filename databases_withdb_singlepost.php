@@ -29,18 +29,22 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 <?php if (empty($articles)) : ?>
     <p>No articles found</p>
 <?php else : ?>
+    <div class="container">
+        <div class="row mt-4">
+            <ul>
+                <?php foreach ($articles as $index => $article) : ?>
+                    <li>
+                        <article>
+                            <h2><?= $article["title"] ?></h2>
+                            <p><?= $article["content"] ?></p>
+                            <p><?= $article["published_at"] ?></p>
+                        </article>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </div>
 
-    <ol>
-        <?php foreach ($articles as $index => $article) : ?>
-            <li>
-                <article>
-                    <h2><?php echo $article["title"] ?></h2>
-                    <p><?php echo $article["content"] ?></p>
-                    <p><?php echo $article["published_at"] ?></p>
-                </article>
-            </li>
-        <?php endforeach; ?>
-    </ol>
 <?php endif; ?>
 
 <?php require 'includes/footer.php'; ?>

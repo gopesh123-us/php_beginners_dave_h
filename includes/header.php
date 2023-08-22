@@ -7,7 +7,10 @@
 </head>
 
 <body>
-    <header>
-        <h1>My Blog</h1>
-    </header>
+    <div class="container bg-light">
+        <div class="row">
+            <h1>My Blog</h1>
+        </div>
+
+    </div>
     <main>

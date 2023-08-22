@@ -1,7 +1,7 @@
 <?php
 $db_host = "localhost:3306";
-$db_name = "udemy_cms";
-$db_user = "udemy_cms_www";
+$db_name = "cms";
+$db_user = "cms_www";
 $db_pass = "Guruji123$";
 
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);

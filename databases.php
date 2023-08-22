@@ -15,7 +15,7 @@ $articles = [
     ]
 ];
 
-var_dump($articles);
+//var_dump($articles);
 ?>
 
 <!DOCTYPE html>
@@ -27,15 +27,16 @@ var_dump($articles);
 
 <body>
     <header>
-        <h1>My Blog - Data Hardcoded</h1>
+        <h1>My Blog - Data</h1>
+        <h2>Data shown below is hardcoded</h2>
     </header>
     <main>
         <ol>
             <?php foreach ($articles as $index => $article) : ?>
                 <li>
                     <article>
-                        <h2><?php echo $article["title"] ?></h2>
-                        <p><?php echo $article["author"] ?></p>
+                        <h2><?= $article["title"]; ?></h2>
+                        <p><?= $article["author"]; ?></p>
                     </article>
                 </li>
             <?php endforeach; ?>
