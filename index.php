@@ -39,3 +39,6 @@ echo '<br>';
 echo '<a href="new_article.php" target="_blank">add new article</a>';
 echo '<br>';
 echo '<a href="new-article-2.php" target="_blank">new article version 2</a>';
+echo '<br>';
+echo '<hr>';
+echo '<a href="/namespace-minicourse/" target="_blank">NameSpace Mini Course - YouTube lessons</a>';
