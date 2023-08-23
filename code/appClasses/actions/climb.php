@@ -1,4 +1,5 @@
 <?php
+namespace AppClasses\Actions;
 
 class climb
 {
