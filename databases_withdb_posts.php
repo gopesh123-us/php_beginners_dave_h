@@ -35,10 +35,10 @@ require 'includes/header.php';
                     <li>
                         <article>
                             <a href="databases_withdb_singlepost.php?id=<?= $article["id"]; ?>">
-                                <h2><?php echo $article["title"] ?></h2>
+                                <h2><?= $article["title"] ?></h2>
                             </a>
-                            <p><?php echo $article["content"] ?></p>
-                            <p><?php echo $article["published_at"] ?></p>
+                            <p><?= $article["content"] ?></p>
+                            <p><?= $article["published_at"] ?></p>
                         </article>
                     </li>
 
